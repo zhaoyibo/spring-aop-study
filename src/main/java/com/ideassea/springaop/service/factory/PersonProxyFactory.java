@@ -17,8 +17,8 @@ public class PersonProxyFactory {
         return proxy.getProxy();
     }
 
-public static Person newCGLibProxy() {
-    return CGLibProxy.getInstance().getProxy(Person.class);
-}
+    public static Person newCGLibProxy() {
+        return CGLibProxy.getInstance().getProxy(Person.class);
+    }
 
 }
